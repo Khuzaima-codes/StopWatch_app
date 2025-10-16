@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 4rem;
+}
+
+.time {
+    width: 300px;
+}
+
+.after-column::after {
+    content: ":";
+    margin-left: 5px;
+}
+
+.container {
+    height: 60vh;
+}
+
+.color-blue {
+    background: -webkit-linear-gradient(#1E90FF, #005A9C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-blue {
+    border-image: linear-gradient(to right, #1E90FF 0%, #005A9C 100%) 1;
+    border-width: 2px 0px;
+    border-style: solid;
+}
+.watch-btn{
+    border-radius: 50% !important;
+}
